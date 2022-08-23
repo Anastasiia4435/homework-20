@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+.menu {
+  width: 450px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: white;
+  font-size: 100px;
+  font-family: "Lato", sans-serif;
+}
+
+.big-text {
+  width: 850px;
+  margin-top: 600px;
+  margin-left: 100px;
+}
